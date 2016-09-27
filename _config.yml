@@ -25,7 +25,7 @@ description: About Joo Ann Lee, her projects, and contact.
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Exploring Mexico's Education Landscape: "http://jooannlee.github.io/"
+    - Exploring Mexico's Education Landscape: "https://jooannlee.github.io/2016-09-27-exploring-mexico-education-part1/"
   Home: "http://jooannlee.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
