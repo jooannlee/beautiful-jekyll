@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Exploring Mexico’s Education Landscape 
+subtitle: Part1 - Basic mapping in R
 bigimg: /img/path.jpg
 ---
-
-<!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
