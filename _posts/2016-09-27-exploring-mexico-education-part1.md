@@ -140,7 +140,7 @@ $(document).ready(function () {
 <div id="ok-step-1" class="section level2">
 <h2>OK, step 1</h2>
 <p>Set your working directory to the folder containing the shapefiles, and read the shapefiles into R to be stored as an object. Here I called my object containing the Mexico shapefiles mxShp.</p>
-<pre class="r"><code>setwd(&quot;C:/Users/Ryuen/Desktop/mx/MEX_adm&quot;)
+<pre class="r"><code>setwd(&quot;C:/Users/MEX_adm&quot;)
 
 library(&quot;maptools&quot;)
 mxShp = readShapeSpatial(&quot;MEX_adm1.shp&quot;)</code></pre>
@@ -188,7 +188,7 @@ mxShp = readShapeSpatial(&quot;MEX_adm1.shp&quot;)</code></pre>
 <p>Now that we have our shapefiles loaded in R, we need to prepare our dataset to be compatible with the structure of the shapefiles.</p>
 <p>I downloaded the Mexico education dataset here: <a href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" class="uri">http://www.snie.sep.gob.mx/estadisticas_educativas.html</a>. For starters, I’ll focus on the enrollment data.</p>
 <p>Convert the dataset into .csv and load the dataset into R. My dataset is loaded as a dataframe called dat.</p>
-<pre class="r"><code>dat = read.csv(&quot;C:/Users/Ryuen/Desktop/mx/eng/enrollment.csv&quot;)</code></pre>
+<pre class="r"><code>dat = read.csv(&quot;C:/Users/eng/enrollment.csv&quot;)</code></pre>
 <p>We can see that the variable “DES” contains information on the states of Mexico in addition to the level of education. We can also see that variable “CLV” is a level index that marks what level the enrollment data is at.</p>
 <pre class="r"><code>head(dat, n=5)</code></pre>
 <pre><code>##   ENT    CLV                               DES BRP X1990.1991 X1991.1992
