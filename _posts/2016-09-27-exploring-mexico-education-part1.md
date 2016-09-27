@@ -15,7 +15,7 @@ bigimg: /img/2016-09-27.png
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="author" content="JooAnnLee" />
+<meta name="author" content="Joo Ann Lee" />
 
 <meta name="date" content="2016-09-27" />
 
@@ -53,7 +53,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 <style type="text/css">
 .main-container {
-  max-width: 90%;
+  max-width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -116,7 +116,7 @@ $(document).ready(function () {
 
 
 <h1 class="title">Exploring Mexico’s Education Landscape Part1</h1>
-<h4 class="author"><em>JooAnnLee</em></h4>
+<h4 class="author"><em>Joo Ann Lee</em></h4>
 <h4 class="date"><em>September 27, 2016</em></h4>
 
 </div>
