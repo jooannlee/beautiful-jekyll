@@ -3,7 +3,7 @@ layout: post
 title: Exploring Mexico’s Education Landscape 
 subtitle: Part1 - Basic mapping in R
 tags: [R, map, mexico, education]
-bigimg: /img/path.jpg
+bigimg: /img/2016-09-27.png
 ---
 <html xmlns="http://www.w3.org/1999/xhtml">
 
