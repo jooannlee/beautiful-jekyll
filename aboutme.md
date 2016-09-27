@@ -12,7 +12,7 @@ how about the causes governing success in higher education? <br><br>
 
 or simply where the best restaurants are located? <br><br>
 
-subtitle: I reason with data to help answer questions like these.
+I reason with data to help answer questions like these.
 
 </center>
 
