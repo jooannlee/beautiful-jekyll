@@ -6,8 +6,6 @@ tags: [R, map, mexico, education]
 bigimg: /img/2016-09-27.png
 ---
 
-<!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
