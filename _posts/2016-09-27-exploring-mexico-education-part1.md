@@ -6,6 +6,8 @@ tags: [R, map, mexico, education]
 bigimg: /img/2016-09-27.png
 ---
 
+<!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -188,7 +190,7 @@ mxShp = readShapeSpatial(&quot;MEX_adm1.shp&quot;)</code></pre>
 <p>Now that we have our shapefiles loaded in R, we need to prepare our dataset to be compatible with the structure of the shapefiles.</p>
 <p>I downloaded the Mexico education dataset here: <a href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" class="uri">http://www.snie.sep.gob.mx/estadisticas_educativas.html</a>. For starters, I’ll focus on the enrollment data.</p>
 <p>Convert the dataset into .csv and load the dataset into R. My dataset is loaded as a dataframe called dat.</p>
-<pre class="r"><code>dat = read.csv(&quot;C:/eng/enrollment.csv&quot;)</code></pre>
+<pre class="r"><code>dat = read.csv(&quot;C:/enrollment.csv&quot;)</code></pre>
 <p>We can see that the variable “DES” contains information on the states of Mexico in addition to the level of education. We can also see that variable “CLV” is a level index that marks what level the enrollment data is at.</p>
 <pre class="r"><code>head(dat, n=5)</code></pre>
 <pre><code>##   ENT    CLV                               DES BRP X1990.1991 X1991.1992
@@ -258,7 +260,7 @@ datCLV100000$DES</code></pre>
 ## [32] PREESCOLAR TOTAL ZACATECAS          
 ## [33] PREESCOLAR TOTAL REPÚBLICA MEXICANA 
 ## 594 Levels:               EDUCACIÓN ESPECIAL CURSOS INTENSIVOS ...</code></pre>
-<p>According to our shapefiles, there are 31 states and 1 federal district in Mexico. However our dataset have 33 unique entries. In order to map, we need to get our dataset to be compatible with the shapefiles.</p>
+<p>According to our shapefiles, there are 31 states and 1 federal district in Mexico. However our dataset has 33 unique entries. In order to map, we need to get our dataset to be compatible with the shapefiles.</p>
 <pre class="r"><code>length(datCLV100000$DES)</code></pre>
 <pre><code>## [1] 33</code></pre>
 <p>What’s going on? To find out, let’s extract and append the states from the preschool enrollment information, and convert them to all lower cases.</p>
