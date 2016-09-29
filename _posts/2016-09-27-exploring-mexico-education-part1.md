@@ -336,6 +336,6 @@ map = ggplot() + geom_polygon(data=datMap2, aes(x=long, y=lat, group=group, fill
 plot(map)
 ```
 
-![](img/2016-09-27-1.png)
+![](/img/2016-09-27-1.png)
 
 Not very surprisingly, we see that Mexico City (used to be known as distrito federal) has the highest preschool level enrollment for year 2013 - 2014. Stay tuned for more!
