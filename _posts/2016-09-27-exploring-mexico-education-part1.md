@@ -101,7 +101,7 @@ Step 2
 
 Now that we have our shapefiles loaded in R, we need to prepare our dataset to be compatible with the structure of the shapefiles.
 
-I downloaded the Mexico education dataset here: http://www.snie.sep.gob.mx/estadisticas_educativas.html. For starters, I’ll focus on the enrollment data.
+I downloaded the Mexico education dataset here: <http://www.snie.sep.gob.mx/estadisticas_educativas.html>. For starters, I’ll focus on the enrollment data.
 
 Convert the dataset into .csv and load the dataset into R. My dataset is loaded as a dataframe called dat.
 
