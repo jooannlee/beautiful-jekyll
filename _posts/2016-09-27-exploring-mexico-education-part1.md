@@ -21,8 +21,8 @@ Shapefiles contain the necessary GIS data for us to create maps. There are many 
 ### Packages
 
 The two R packages that we will be using are: 
-- maptools 
-- ggplot2
+<br>- maptools 
+<br>- ggplot2
 
 OK, step 1
 ----------
