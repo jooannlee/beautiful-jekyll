@@ -16,7 +16,7 @@ What you will need
 
 ### Shapefiles
 
-Shapefiles contain the necessary GIS data for us to create maps. There are many websites to download shapefiles from. For this project, I downloaded mine here: http://www.diva-gis.org/gdata. Download and unzip the shapefiles to your working directory.
+Shapefiles contain the necessary GIS data for us to create maps. There are many websites to download shapefiles from. For this project, I downloaded mine here: <http://www.diva-gis.org/gdata>. Download and unzip the shapefiles to your working directory.
 
 ### Packages
 
